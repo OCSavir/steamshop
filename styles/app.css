@@ -1,0 +1,594 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+
+/*
+=====================
+    Reset css end
+=====================
+ */
+
+
+/*
+=====================
+       Fonts
+=====================
+ */
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url(../fonts/Vazirmatn-Regular.ttf), format(truetype);
+}
+@font-face {
+    font-family: "Vazirmatn Bold";
+    src: url(../fonts/Vazirmatn-Bold.ttf), format(truetype);
+}
+@font-face {
+    font-family: "Vazirmatn Black";
+    src: url(../fonts/Vazirmatn-Black.ttf), format(truetype);
+}
+
+/*
+=====================
+        Body
+=====================
+ */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+body {
+    background-color: #E3EAF5;
+    font-family: "Vazirmatn";
+    overflow-x: hidden;
+}
+.container {
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/*
+=====================
+       Header
+=====================
+ */
+
+.header {
+    background-color: #1E3A8A;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+}
+.logo__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shopping-cart__link {
+    font-family: "Vazirmatn Bold";
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2962FF;
+    transition: all 150ms ease-in 100ms;
+}
+.shopping-cart__link:hover {
+    background-color: #304FFE;
+}
+.shopping-cart__link:active {
+    background-color: #6200EA;
+}
+.product-menu__items {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/*
+=====================
+        Main
+=====================
+ */
+
+.product-menu__item {
+    width: 10rem;
+    height: 3rem;
+}
+.product-menu__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    gap: 0.5rem;
+}
+.flag-icon--menu {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 445px;
+    min-width: 384px;
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0 0.5rem 1rem 0.5rem;
+}
+.product__image {
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto 1rem auto;
+    position: relative;
+}
+.product__image-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 150ms ease-in 100ms;
+}
+.product__image-img:hover {
+    scale: 1.05;
+}
+.flag-icon {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.product__name-title {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    font-family: "Vazirmatn Bold";
+}
+.buy-btn {
+    width: 350px;
+    margin-top: 1rem;
+}
+.buy-btn__link {
+    display: block;
+    text-align: center;
+    font-family: "Vazirmatn Bold";
+    text-decoration: none;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: #2962FF;
+    transition: all 150ms ease-in 100ms;
+}
+.buy-btn__link:hover {
+    background-color: #304FFE;
+}
+.buy-btn__link:active {
+    background-color: #6200EA;
+}
+
+/*
+=====================
+      Responsive
+=====================
+ */
+
+@media (max-width: 1400px) {
+    .container {
+      width: 1200px;
+    }
+    .row {
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+      width: 992px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+      width: 768px;
+    }
+    .row {
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+      width: 576px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+      width: 90%;
+    }
+}
